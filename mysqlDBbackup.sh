@@ -1,5 +1,5 @@
 #!/bin/bash  #Shebang
-
+# this is a test
 v_dbName=$1
 v_username=$(cat cred | grep username|awk -F"=" '{print $2}')
 v_password=$(cat cred | grep password|awk -F"=" '{print $2}')
